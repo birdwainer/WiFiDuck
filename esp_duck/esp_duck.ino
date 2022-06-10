@@ -16,7 +16,7 @@
 void setup() {
     debug_init();
 
-    delay(200);
+    delay(1000);
 
     com::begin();
 

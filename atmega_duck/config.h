@@ -26,7 +26,7 @@
 #define SERIAL_COM Serial1
 #define SERIAL_BAUD 9600
 
-// #define ENABLE_I2C
+#define ENABLE_I2C
 #define I2C_ADDR 0x31
 
 #define BUFFER_SIZE 256
@@ -37,10 +37,10 @@
 // #define NEOPIXEL_NUM 1
 // #define LED_PIN 7
 
-// #define DOTSTAR
-// #define DOTSTAR_NUM 1
-// #define DOTSTAR_DI 7
-// #define DOTSTAR_CI 8
+ #define DOTSTAR
+ #define DOTSTAR_NUM 1
+ #define DOTSTAR_DI 7
+ #define DOTSTAR_CI 8
 
 // #define LED_RGB
 // #define LED_ANODE
